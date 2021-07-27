@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <form class="form">
+        <div class="form__userName textInputs">
+            <label for="userName">Name</label>
+            <input type="text" id="userName" placeholder="John Doe">
+        </div>
+        <div class="form__userMail textInputs">
+            <label for="userMail">Email</label>
+            <input type="email" id="userMail" placeholder="johndoe@example.com">
+        </div>
+        <div class="form__userPass textInputs">
+            <label for="userPass">Password</label>
+            <input type="password" id="userPass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;">
+        </div>
+        <div class="form__userGender">
+            <label for="userGender">Gender</label>
+            <div>
+                <p><input type="radio" checked name="gender" id="userGender">Male</p>
+                <p class="femaleRadio"><input type="radio" name="gender">Female</p>
+            </div>
+        </div>
+        <div class="form__userBirthdate textInputs">
+            <label for="userBirthDate">Birthdate</label>
+            <input type="date" id="userBirthDate">
+        </div>
+        <div class="form__userContacts userContacts">
+            <label for="userContactsId">Contacts</label>
+            <div class="userContacts__mainBlock">
+                <div>
+                    <select id="userContactsId" class="userContactsSelect">
+                        <option>Skype</option>
+                        <option>ICQ</option>
+                    </select>
+                    <input type="text" placeholder="johndoe">
+                    <input type="reset" value="Delete">
+                </div>
+                <div>
+                    <select class="userOtherSelect">
+                        <option>Other</option>
+                        <option>Viber</option>
+                    </select>
+                    <input type="text" placeholder="Facebook">
+                    <input type="text" placeholder="johndoe">
+                    <input type="reset" value="Delete">
+                </div>
+                <div>
+                    <input type="button" value="Save">
+                    <span>or</span>
+                    <input type="button" value="Add new" class="addNewBtn">
+                </div>
+            </div>
+        </div>
+        <div class="form__userPhoto">
+            <label for="userPhoto">Photo</label>
+            <fieldset>
+                <input type="file" id="userPhoto">
+            </fieldset>
+        </div>
+        <div class="form__userHobbies">
+            <label for="userHobbies">Hobbies</label>
+            <select id="userHobbies" size="4">
+                <option>Movies</option>
+                <option>Music</option>
+                <option>Cooking</option>
+                <option>Photography</option>
+                <option>Travelling</option>
+                <option>Surfing</option>
+            </select>
+        </div>
+        <div class="form__userAbout">
+            <div>
+                <label for="form__userAbout-textarea">Some<br><span>words</span></label>
+            </div>
+            <textarea id="form__userAbout-textarea"></textarea>
+        </div>
+        <div class="form__userAgreement">
+            <input type="checkbox" id="agreementCheckbox">
+            <label for="agreementCheckbox">Agreement</label>
+        </div>
+        <div class="form__bottomBtns">
+            <input type="button" value="Update profile">
+            <input type="button" value="Next">
+        </div>
+    </form>
+</body>
+</html>

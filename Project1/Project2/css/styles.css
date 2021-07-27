@@ -1,0 +1,235 @@
+.form {
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.textInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.textInputs > input {
+    width: 78%;
+    padding: 1% 0;
+    padding-left: 1.2%;
+}
+
+.form__userName > label {
+    margin-left: 4%;
+}
+
+.form__userMail > label {
+    margin-left: 4%;
+}
+
+.form__userPass {
+    margin-bottom: 0;
+}
+
+.form__userPass > label {
+    margin-left: 2%;
+}
+
+.form__userGender {
+    display: flex;
+    flex-direction: row;
+}
+
+.form__userGender > label {
+    padding-top: 3%;
+    width: 17%;
+    padding-left: 3%;
+}
+
+.form__userGender > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.femaleRadio {
+    margin-left: 14px;
+}
+
+.form__userBirthdate > label {
+    margin-left: 2%;
+}
+
+.form__userBirthdate > input {
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+}
+
+.form__userContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.form__userContacts > label {
+    margin-left: 2.5%;
+}
+
+.userContacts__mainBlock {
+    width: 80%;
+}
+
+.userContactsSelect {
+    padding: 1.4% 3%;
+}
+
+.userOtherSelect {
+    padding: 1.4% 3.5%;
+}
+
+.userContacts__mainBlock input[type="text"] {
+    padding: 1.4% 0;
+    padding-left: 2%;
+}
+
+.userContacts__mainBlock input[type="reset"] {
+    border: none;
+    background-color: white;
+    color: #428bca;
+    margin-left: -1%;
+}
+
+.userContacts__mainBlock div:nth-child(2) input:nth-child(2) {
+    width: 20%;
+    margin: 2% 0;
+}
+
+.userContacts__mainBlock div:nth-child(2) input:nth-child(3) {
+    width: 33%;
+    margin-left: 1%;
+}
+
+.userContacts__mainBlock div:nth-child(3) input[type="button"] {
+    background-color: #428bca;
+    border: none;
+    padding: 1.8% 2.6%;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+}
+
+.userContacts__mainBlock div:nth-child(3) input[type="button"].addNewBtn {
+    background-color: white;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(143, 143, 143);
+    padding: 1.6% 2.4%;
+}
+
+.form__userPhoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.form__userPhoto > label {
+    margin-left: 5%;
+}
+
+.form__userPhoto > fieldset {
+    width: 78.5%;
+    padding: 1% 0;
+    padding-left: 1%;
+    border: 1px solid rgb(180, 180, 180);
+    margin-right: 0;
+}
+
+.form__userPhoto > fieldset > input {
+    margin-left: 1%;
+}
+
+.form__userHobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.form__userHobbies label {
+    margin-left: 3.5%;
+}
+
+.form__userHobbies select {
+    width: 80%;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+.form__userAbout {
+    margin-top: 4%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.form__userAbout > div {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.form__userAbout > div span {
+    margin-left: -10%;
+}
+
+.form__userAbout textarea {
+    float: right;
+    width: 79%;
+    height: 9vh;
+}
+
+.form__userAgreement {
+    margin-left: 19%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.form__userAgreement input {
+    margin-right: 2%;
+}
+
+.form__userAgreement label {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.form__bottomBtns {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.form__bottomBtns input:nth-child(1) {
+    background-color: #428bca;
+    border: none;
+    padding: 1.8% 2.6%;
+    border-radius: 4px;
+    color: white;
+}
+
+.form__bottomBtns input:nth-child(2) {
+    background-color: rgb(209, 209, 209);
+    border: none;
+    padding: 1.8% 2.6%;
+    border-radius: 4px;
+    color: rgb(82, 82, 82);
+}
+
