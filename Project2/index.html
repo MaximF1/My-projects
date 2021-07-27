@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Project 2</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="userFullName">Введите ФИО</label>
+            <input type="text" id="userFullName" required pattern="(\w\s\w\s\w){5,25}">
+        </div>
+        <div>
+            <label for="userMail">Введите E-mail</label>
+            <input type="text" id="userMail" required pattern="[a-zA-z0-9]{3,}@[a-zA-z0-9]{3,}\.[a-zA-z0-9]{2,}">
+        </div>
+        <div>
+            <label for="userPass">Создайте пароль</label>
+            <input type="text" id="userPass" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-ZА-ЯЁ]).*">
+        </div>
+        <input type="submit" value="Подтвердить">
+    </form>
+    <div class="sample">
+        <div class="sample__innerHeader">
+            <h1>Sample flexbox example</h1>
+        </div>
+        <div class="sample__innerMain">
+            <div>
+                <h2>First article</h2>
+                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eaque, in ut porro ad magni sunt accusantium fugiat. Doloremque non sunt ea delectus. Quia nulla similique quibusdam, reiciendis pariatur fugit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nostrum eum nobis, porro voluptas pariatur sapiente minus! Architecto placeat praesentium ea inventore laboriosam, quo, vitae, tempore similique laborum magni necessitatibus!</article>
+            </div>
+            <div>
+                <h2>Second article</h2>
+                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur quasi commodi dicta, nobis quidem inventore consequatur soluta recusandae voluptate sapiente magnam minus quae laudantium molestias? Neque magnam nisi quam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi laboriosam aut? Excepturi ipsam, blanditiis in porro numquam vel quasi molestiae ea ut accusantium iusto consequuntur ad veritatis deleniti commodi.</article>
+            </div>
+            <div>
+                <h2>Third article</h2>
+                <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam officia neque saepe eveniet, quia consectetur accusamus deserunt molestiae, vero nisi pariatur eos? Ducimus quo consequuntur ipsa, accusantium expedita similique esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium autem minus quibusdam dolores libero incidunt vel, asperiores laboriosam quae eos dolore distinctio et omnis rem provident itaque sint quisquam iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo omnis quidem aut laborum a? Maiores est nihil temporibus aliquid quas itaque maxime aspernatur voluptatum voluptatem. Dolorem harum officiis suscipit reprehenderit?</article>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
