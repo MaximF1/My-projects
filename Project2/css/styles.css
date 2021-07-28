@@ -51,7 +51,7 @@ input[type="submit"] {
 }
 
 .sample {
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .sample__innerHeader {
@@ -83,18 +83,43 @@ input[type="submit"] {
     opacity: 0.9;
     margin: 0.7%;
     padding-bottom: 2%;
+    outline: rgb(6, 165, 14) solid 2px;
 }
-
 
 h2 {
     margin: 0;
     margin-left: 1%;
     padding: 1.7% 0;
     font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 1px;
 }
 
 article {
     margin-left: 1%;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
+    text-indent: 15px;
+    word-spacing: 2px;
+    word-wrap: break-word;
+    line-height: 26px;
+}
+
+span {
+    vertical-align: 2px;
+}
+
+.special {
+    direction: rtl;
+}
+
+.smthg {
+    visibility: hidden;
+}
+
+.sample > img {
+    width: 20%;
+    height: 25vh;
+    object-fit: cover;
+    margin-left: 1%;
+    cursor: progress;
 }
